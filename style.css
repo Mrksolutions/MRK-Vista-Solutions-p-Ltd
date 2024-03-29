@@ -657,8 +657,50 @@ li.social-links a {
 	left: 100%;
 	z-index: 1
 }
+/*-----------------------------------------------------------------------
+CompanyInfo
+------------------------------------------------------*/
 
+.Companyinfo{
+    position: absolute;
+    top: 10rem;
+    left:4.5rem;
+    height: 10rem;
+    margin-top: -10rem;
+    background-color: #d10c0c;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.content-containt{
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    
+
+}
+.CInFOcontaintimg>img{
+    margin: 1rem;
+    height: 5rem;
+}
+.c-c-containt>h2,h4{
+    margin-bottom: -0.5rem;
+    color: #fff;
+}
+/* .c-c-containt>h4{
+    margin-right: 0.5rem;
+} */
+.c-c-first-last{
+}
+.container-Aboutus{
+    margin-top: 10rem;
+    color: black;
+}
 /*------------------------------------------------------------------
     SECTIONS
 -------------------------------------------------------------------*/
@@ -718,7 +760,9 @@ li.social-links a {
 }
 
 .section.wb {
+    margin-top: 10rem;
     background-color: #ffffff;
+    position: relative;
 }
 
 .section.lb {
@@ -1331,7 +1375,7 @@ li.social-links a {
     padding-top: 10px;
     font-size: 19px;
     font-style: italic;
-    color: #999;
+    color: #030303;
     padding-bottom: 0;
 }
 
@@ -3361,6 +3405,9 @@ select.mobile-device {
     bottom: 20px;
 }
 
-
+#red-style{
+    color: red;
+    font-size:larger
+}
 
 
