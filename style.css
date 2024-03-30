@@ -610,17 +610,17 @@ li.social-links a {
 
 
 .slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next {
-    background: #393939;
+    
     height: 60px;
     top: 50%;
     transform: translateY(-50%);
     transition: all 0.4s ease-in-out 0s;
     width: 60px;
-	border-radius: 25px 0px 25px 0px;
+    border-radius: 5rem;
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #d10c0c;
+    background: #d10c0c;
 }
 
 .slider-wrapper .owl-nav .owl-prev {
@@ -630,7 +630,7 @@ li.social-links a {
 }
 
 .slider-wrapper .owl-nav .owl-prev i{
-	position: absolute;
+	position: absolute; 
 	left: 0px;
 	right: 0;
 	width: auto;
@@ -670,9 +670,7 @@ CompanyInfo
 ------------------------------------------------------*/
 
 .Companyinfo{
-    position: absolute;
-    top: 0.5rem;
-    right: 10rem;
+    margin-top:10rem ;
     height: 7.9vw;
     width: 115rem;
     background-color: #ff0000;
@@ -696,6 +694,9 @@ CompanyInfo
     margin: 1rem;
     height: 10vh;
 }
+.reliable{
+    height: 3rem;
+}
 .c-c-containt>h2,h4{
     margin-bottom: -0.5rem;
     color: #fff;
@@ -708,7 +709,6 @@ CompanyInfo
     
 }
 .container-Aboutus{
-    margin-top: 2rem;
     color: black;
 }
 .section.wb {
@@ -721,7 +721,6 @@ CompanyInfo
 
     .Companyinfo{
         position: absolute;
-        top: 0.5rem;
         left: 1rem;
         height: 30vw;
         width: 100vw;
@@ -734,8 +733,10 @@ CompanyInfo
     .c-c-containt{
         width: 85vw;
     }
-    #about{
-        padding-top: 35rem;
+    .container-Aboutus{
+        margin-top: -19rem;
+
+        color: black;
     }
 
 }
@@ -852,7 +853,7 @@ CompanyInfo
 }
 
 .section-title p {
-    color: #999;
+    color: #000000;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -877,12 +878,20 @@ CompanyInfo
 .service-widget{
 	background: #ffffff;
 }
-
+.service-widget img{
+    height: 30rem;
+}
 .section.lb .service-dit h3{
 	padding: 12px 0px;
 }
 .service-dit{
 	padding: 20px 15px;
+    text-align: center;
+}
+.service-dit  p {
+    color: #080808;
+    font-family: Raleway, sans-serif;
+    
 }
 
 
@@ -1380,7 +1389,13 @@ CompanyInfo
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
+.view-service{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #080808;
+    font-family: Raleway, sans-serif;
+}
 .message-box h4 {
     text-transform: uppercase;
     padding: 0;
@@ -1404,6 +1419,33 @@ CompanyInfo
 .message-box p {
     margin-bottom: 20px;
 }
+.Service-P{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+}
+.Service-P li {
+    list-style:none;
+    
+    font-weight: 600;
+
+}
+@media (max-width:600px){
+    .message-box{
+        margin-top: 18rem;
+    }
+    .Service-P{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .services-provide-margin{
+        margin-left: -2rem;
+    }
+}
+
 
 .message-box .lead {
     padding-top: 10px;
@@ -3447,4 +3489,11 @@ select.mobile-device {
     color: red;
     background-color: #991616;
 }
+#red-style-service{
+    color: red;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 700;
+    font-family: playfair display, serif;
 
+}
